@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background: linear-gradient(245.71deg, #1E0C00 4.96%, #1F0700 33.7%, #170A00 68.41%, #1E0D00 96.42%);
+}
+
+.container {
+    width: 90%;
+    margin: 48px auto 0px;
+}
+
+.nav-row {
+    gap: 196px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links ul {
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    font-family: Mulish;
+    font-size: 17.88px;
+    font-weight: 400;
+    line-height: 19.58px;
+    color: #A3A3A3;
+}
+
+.nav-links ul li a:hover {
+    background-image: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+    background-repeat: repeat;
+}
+
+.nav-btn button {
+    width: 163px;
+    height: 40px;
+    border-radius: 30px;
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    font-family: Mulish;
+    font-size: 17.74px;
+    font-weight: 500;
+    line-height: 19.43px;
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.nav-icon a {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    color: #fff;
+    text-decoration: none;
+    padding: 16px 12px 12px 12px;
+    border-radius: 50%;
+}
+
+.nav-icon i {
+    font-size: 28px;
+}
+
+.card-shopping {
+    text-align: center;
+    width: 297px;
+    height: 516px;
+    background: #210A01;
+}
+
+.card-shopping h2 {
+    margin-top: -10px;
+    font-family: Mulish;
+    font-size: 25.1px;
+    font-weight: 500;
+    line-height: 27.49px;
+    color: #fff;
+}
+
+.card-shopping p {
+    color: #a3a3a3;
+    font-family: Mulish;
+    font-size: 14.32px;
+    font-weight: 400;
+    line-height: 15.68px;
+}
+
+.header-left h1 {
+    display: flex;
+    font-family: Mulish;
+    font-size: 69.17px;
+    font-weight: 800;
+    line-height: 75.74px;
+    color: #FFFFFF;
+}
+
+.h1-icon {
+    margin-top: 84px;
+    margin-left: -180px;
+}
+
+.h1-delivery {
+    margin-top: 76px;
+    margin-left: 20px;
+}
+
+.header-left p {
+    color: #A3A3A3;
+    font-family: Mulish;
+    font-size: 19.56px;
+    font-weight: 400;
+    line-height: 29.64px;
+}
+
+.header-left span {
+    color: #fff;
+}
+
+.cooking {
+    margin-top: 23px;
+}
+
+.header-left-img img {
+    margin-top: -22px;
+    margin-left: -30px;
+}
+
+.header-row {
+    margin-top: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-right {
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+.pizza-icon {
+    transform: rotate(-20deg);
+    top: -90px;
+    left: 318px;
+    position: absolute;
+}
+
+.header-right-img img {
+    z-index: 20;
+}
+
+.pizza-icon img {
+    z-index: 10;
+    width: 250px;
+}
+
+.fries-icon {
+    position: absolute;
+}
+
+.fries-icon {
+    position: absolute;
+    top: 570px;
+    left: -90px;
+}
+
+.fries-icon img {
+    /* z-index: 10; */
+    width: 250px;
+}
+
+.section-menu h1 {
+    margin-top: 86px;
+    font-family: Mulish;
+    font-size: 69.17px;
+    font-weight: 800;
+    line-height: 75.74px;
+    text-align: center;
+    color: #fff;
+}
+
+.menu-tab {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+.show-all button,
+.meat button,
+.vegetarian button,
+.sea-products button,
+.mushroom button {
+    width: 229.93px;
+    height: 62px;
+    border: none;
+    border-radius: 100px;
+    background: #210A01;
+    box-shadow: 0px 9px 40px 0px #FF6B000F;
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 24.09px;
+    color: #fff;
+}
+
+.show-all button:hover,
+.meat button:hover,
+.vegetarian button:hover,
+.sea-products button:hover,
+.mushroom button:hover {
+    cursor: pointer;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    box-shadow: 0px 9px 40px 0px #FF6B000F;
+}
+
+.bg-menu-img {
+    position: relative;
+    z-index: 10;
+}
+
+.menu-cards {
+    margin-top: 104px;
+}
+
+.cards {
+    position: relative;
+    width: 297px;
+    height: 459px;
+    border-radius: 29.53px;
+    background: #210A01;
+    z-index: 30;
+}
+
+.cards h2 {
+    font-family: Mulish;
+    font-size: 25.1px;
+    font-weight: 500;
+    line-height: 27.49px;
+    color: #fff;
+    position: absolute;
+    top: 100px;
+    left: 98px;
+}
+
+.cards .pizza-p {
+    font-family: Mulish;
+    font-size: 14.32px;
+    font-weight: 400;
+    line-height: 15.68px;
+    color: #A3A3A3;
+    position: absolute;
+    top: 147px;
+    left: 27px;
+}
+
+.card1-pizza {
+    position: absolute;
+    top: -80px;
+    left: 35px;
+}
+
+.ingridients-btn button {
+    position: absolute;
+    top: 279px;
+    left: 38px;
+    border: 1.5px solid #FF5924;
+    background: none;
+    width: 194px;
+    height: 39px;
+    border-radius: 30px;
+    font-family: Mulish;
+    font-size: 16.08px;
+    font-weight: 400;
+    line-height: 17.61px;
+    text-align: center;
+    color: #FE9C1C;
+}
+
+.ingridients-btn button:hover {
+    cursor: pointer;
+    transition: .8s;
+    transform: scale(1.1);
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    box-shadow: 0px 9px 40px 0px #FF6B000F;
+    color: #fff;
+}
+
+.menu-card-roards {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+
+.menu-card-road .pizza-size22 {
+    position: absolute;
+    top: 219px;
+    left: 48px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid #A3A3A3;
+    background: none;
+    border-radius: 50%;
+    font-family: Mulish;
+    font-size: 14.32px;
+    color: #A3A3A3;
+}
+
+.menu-card-road .pizza-size28 {
+    position: absolute;
+    top: 219px;
+    left: 114px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    border-radius: 50%;
+    font-family: Mulish;
+    font-size: 14.32px;
+    color: #fff;
+}
+
+.menu-card-road .pizza-size33 {
+    position: absolute;
+    top: 219px;
+    left: 180px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid #A3A3A3;
+    background: none;
+    border-radius: 50%;
+    font-family: Mulish;
+    font-size: 14.32px;
+    color: #A3A3A3;
+}
+
+.menu-card-road button:hover {
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    border: none;
+    color: #fff;
+}
+
+.card-row {
+    display: flex;
+    justify-content: center;
+    gap: 46.24px;
+    align-items: center;
+    position: absolute;
+    top: 316.06px;
+    left: 48px;
+}
+
+.card-left p {
+    color: #fff;
+    font-family: Mulish;
+    font-size: 25.46px;
+    font-weight: 500;
+    line-height: 27.87px;
+}
+
+.to-add {
+    display: flex;
+    gap: 13px;
+}
+
+.plus-btn {
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    border: none;
+    color: #fff;
+    font-size: 17.66px;
+    border-radius: 50%;
+}
+
+.number-btn {
+    background: none;
+    border: none;
+    color: #A3A3A3;
+    font-family: Muller;
+    font-size: 22.82px;
+    font-weight: 400;
+    line-height: 24.99px;
+    text-align: left;
+}
+
+.minus-btn {
+    cursor: pointer;
+    width: 23px;
+    height: 23px;
+    background: none;
+    border: 1px solid #A3A3A3;
+    color: #A3A3A3;
+    font-size: 17.66px;
+    border-radius: 50%;
+}
+
+.card-bottom-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 391px;
+    left: 48px;
+    background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%);
+    box-shadow: 0px 7.59px 33.75px 0px #FF6B000F;
+    color: #fff;
+    font-family: Mulish;
+    font-size: 17.45px;
+    font-weight: 500;
+    line-height: 19.11px;
+    border: none;
+    border-radius: 30px;
+    width: 194px;
+    height: 45px;
+}
+
+.card2 {
+    position: relative;
+    background: #210A01;
+    left: 330px;
+    width: 297px;
+    height: 459px;
+    border-radius: 29.53px;
+}
+
+.card3 {
+    position: relative;
+    background: #210A01;
+    left: 660px;
+    top: -459px;
+    width: 297px;
+    height: 459px;
+    border-radius: 29.53px;
+}
+
+.card4 {
+    position: relative;
+    background: #210A01;
+    left: 990px;
+    top: -919px;
+    width: 297px;
+    height: 459px;
+    border-radius: 29.53px;
+}
+
+.section-pizza-img {
+    background-image: url('img/Rectangle\ 13.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 286px;
+    position: relative;
+    top: 54px;
+}
+
+.most-pizza {
+    position: absolute;
+    top: 85px;
+    left: 479px;
+    color: #ffff;
+    font-family: Mulish;
+    font-size: 23.86px;
+    font-weight: 500;
+    /* line-height: 47.59px; */
+    box-shadow: 0px 11.59px 10.23px 0px #0E040461;
+}
+
+.menu-cards2 {
+    margin-left: 20px;
+    margin-top: 154px;
+}
+
+.section-imges {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 75px;
+}
+
+.events h1 {
+    font-family: Mulish;
+    font-size: 69.17px;
+    font-weight: 800;
+    text-align: right;
+    color: #fff;
+}
+
+.events p {
+    margin-top: -20px;
+    font-family: Mulish;
+    font-size: 19.56px;
+    font-weight: 400;
+    text-align: right;
+    color: #A3A3A3;
+}
+
+.position-img-section h2 {
+    position: absolute;
+    top: 80px;
+    left: 25px;
+    font-family: Mulish;
+    font-size: 25.09px;
+    font-weight: 500;
+    line-height: 27.23px;
+    color: #fff;
+}
+
+.image-btn {
+    position: absolute;
+    top: 181px;
+    left: 25px;
+    width: 204px;
+    height: 38px;
+    border-radius: 36px;
+    background: linear-gradient(261.69deg, #FF5D29 12.12%, #FE9C1C 86.72%);
+    color: #fff;
+    font-family: Mulish;
+    font-size: 15.38px;
+    font-weight: 500;
+    line-height: 16.69px;
+    border: none;
+}
+
+.first-img {
+    position: relative;
+    transition: .4s;
+
+}
+
+.first-img:hover {
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.first-img button:hover {
+    cursor: pointer;
+}
+
+.egg-icon {
+    position: absolute;
+    top: 120px;
+    left: -80px;
+}
+
+.buritto {
+    position: absolute;
+    top: 243px;
+    left: 1135px;
+}
+
+.coffe {
+    position: absolute;
+    top: 620px;
+    left: -100px;
+}
+
+.section-about-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 124px;
+}
+
+.about-left h1 {
+    font-family: Mulish;
+    font-size: 69.17px;
+    font-weight: 800;
+    line-height: 75.74px;
+    color: #fff;
+}
+
+.about-left p {
+    font-family: Mulish;
+    font-size: 19.56px;
+    font-weight: 400;
+    line-height: 26.6px;
+    color: #A3A3A3;
+}
+
+.about-p1 {
+    margin-top: 14px;
+}
+
+.about-pizza-imgs {
+    margin-top: 22px;
+}
+
+.about-p2 {
+    margin-top: 23px;
+}
+
+.about-right {
+    position: relative;
+}
+
+.fries-icon2 {
+    position: absolute;
+    top: 470px;
+}
+
+.pizza-icon2 {
+    position: absolute;
+    top: -60px;
+    left: 480px;
+    transform: rotate(-28deg);
+}
+
+footer {
+    margin-top: 62px;
+    padding: 40px 0px 0px 30px;
+    background: linear-gradient(245.71deg, #170A00 4.96%, #170600 33.7%, #0F0700 68.41%, #170A00 96.42%);
+}
+
+.footer-top {
+    display: flex;
+    align-items: start;
+    gap: 84px;
+}
+
+.footer-links {
+    gap: 44px;
+    display: flex;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #515151;
+    font-family: Mulish;
+    font-size: 17.72px;
+    font-weight: 400;
+    line-height: 30.28px;
+    letter-spacing: -0.02em;
+}
+
+footer ul li a:hover {
+    color: #fff;
+}
+
+.links-row1 h3 {
+    font-family: Mulish;
+    font-size: 19.63px;
+    font-weight: 400;
+    line-height: 24.67px;
+    letter-spacing: -0.02em;
+    color: #A3A3A3;
+}
+
+.f-icon i {
+    cursor: pointer;
+    background: pink;
+    background: -webkit-linear-gradient(261.69deg, #FF612E 12.12%, #FFA32B 86.72%);
+    ;
+    background: linear-gradient(261.69deg, #FF612E 12.12%, #FFA32B 86.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 24.39px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10.47px;
+}
+
+.footer-bottom {
+    margin-top: 97px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-bottom-left p {
+    background-image: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-size: 100%;
+    background-repeat: repeat;
+    font-family: Mulish;
+    font-size: 20.88px;
+    font-weight: 400;
+    line-height: 26.24px;
+    letter-spacing: -0.02em;
+}
+
+footer i:hover {
+    transform: scale(1.3);
+    transition: .8s;
+}
